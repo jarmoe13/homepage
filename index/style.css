@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+.form__label {
+width: 100px;
+display: inline-block;
+margin: 5px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.input-pln {
+border-radius: 3%;
+border-color: #222;
+border-width: 1px;
+padding: 5px;
+max-width: 100px;
+margin: 10px;
+
+}
+
+.input-eur {
+    border-radius: 3%;
+    border-color: #222;
+    border-width: 1px;
+    padding: 5px;
+    max-width: 100px;
+    margin: 10px;
+    
+    
+    }
+
+
+.form__legend {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+
+.form__fieldset {
+    border-color: blue;
+}
+
+.result {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 10px;
+margin: 10px;
+color: blueviolet;
+}
